@@ -11,7 +11,6 @@ for i in range(n):
         tNow = t
     else:
         x = (t - times) % (r + y + g) if t - times > 0 else (t - times) % (r + y + g) - (r + y + g)
-        print('x', x)
         if x > 0:
             kNow = k
             tNow = x
